@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bttn {
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: black;
+    font-weight: bold;
+    
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#auto {
+    background-image: linear-gradient(to right, red, yellow, green);
+}
